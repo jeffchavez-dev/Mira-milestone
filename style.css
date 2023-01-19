@@ -27,15 +27,29 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 2em;
 }
 .section_one_name {
     color: #000;
+    padding: 2em;
     font-size: 3em;
 }
 
 .image_one {
     background-image: url(/assets/322322177_690459082736803_1371477000028029327_n.jpg); 
 }
+.image_two {
+    background-image: url(/assets/swimming.jpg); 
+}
+
+.image_three {
+    background-image: url(/assets/with\ cousins.jpg); 
+}
+
+.image_four {
+    background-image: url(/assets/birthday.png); 
+}
+
 
 .reference {
     position: relative;
