@@ -1,12 +1,21 @@
-body {
+
+.main {
     background-image: url(/assets/Daddy\ and\ Miwa.jpg);
     background-size: cover;
     background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
+.main_name {
+    position: fixed;
+    font-size: 3em;
+}
+
 
 .reference {
-    position: relative;
+    position: absolute;
     bottom: 0;
     left: 0;
 }
