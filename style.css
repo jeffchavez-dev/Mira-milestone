@@ -26,8 +26,9 @@
     border-radius: 10px;
     opacity: .9;
     max-width: 80%;
+    text-align: center;
 }
-.section_one {
+.sections {
     height: 5em;
     display: flex;
     justify-content: center;
@@ -35,7 +36,7 @@
     text-align: center;
     padding: 2rem;
 }
-.section_one_name {
+.section_name {
     color: #000;
     padding: 2em;
     font-size:  1.5rem;
