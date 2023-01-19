@@ -25,6 +25,7 @@
     font-size: 1.5rem;
     border-radius: 10px;
     opacity: .9;
+    max-width: 80%;
 }
 .section_one {
     height: 5em;
