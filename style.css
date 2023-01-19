@@ -1,6 +1,8 @@
 
-.main, section {
+.main{
     background-image: url(/assets/Daddy\ and\ Miwa.jpg);
+}
+.main, section {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: repeat;
@@ -8,16 +10,35 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    transition: all ease-in-out 1s;
+}
+
+.main_title {
+    display: block;
+    background-color: pink;
+    padding: 1rem;
+    font-size: 3em;
+    border-radius: 10px;
+    opacity: .9;
+}
+.section_one {
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .section_one_name {
-    position: fixed;
+    color: #000;
     font-size: 3em;
 }
 
-
+section {
+    background-image: url(/assets/322322177_690459082736803_1371477000028029327_n.jpg); 
+}
 
 .reference {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
 }
