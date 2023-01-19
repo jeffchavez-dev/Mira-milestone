@@ -1,6 +1,7 @@
 
 .main, section {
     background-image: url(/assets/Daddy\ and\ Miwa.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: repeat;
     display: flex;
@@ -8,7 +9,7 @@
     align-items: center;
     height: 100vh;
 }
-.main_name {
+.section_one_name {
     position: fixed;
     font-size: 3em;
 }
