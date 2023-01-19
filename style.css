@@ -4,3 +4,9 @@ body {
     background-repeat: repeat;
     height: 100vh;
 }
+
+.reference {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
