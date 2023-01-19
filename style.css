@@ -18,7 +18,7 @@
     display: block;
     background-color: pink;
     padding: 1rem;
-    font-size: 3rem;
+    font-size: 1.5rem;
     border-radius: 10px;
     opacity: .9;
 }
@@ -33,7 +33,7 @@
 .section_one_name {
     color: #000;
     padding: 2em;
-    font-size: 3rem;
+    font-size:  1.5rem;
 }
 
 .image_one {
