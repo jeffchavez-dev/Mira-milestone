@@ -145,7 +145,7 @@ img {
 
 @media only screen and (max-width: 600px) {
      
-    .gallery {
+    .gallery-two {
         background-size: contain;
         background-position: center;
         background-repeat: repeat;
