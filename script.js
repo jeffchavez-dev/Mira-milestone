@@ -91,11 +91,9 @@ home.addEventListener('click', () => {
 
 const imageContainer = document.querySelector("#girl-images")
 
-
 info.forEach(image => {
     const imgElement = document.createElement("img");
     imgElement.src = image.image;
-
     imageContainer.appendChild(imgElement)
 
 })

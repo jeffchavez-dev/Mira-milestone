@@ -44,9 +44,7 @@
 .gallery-one {
     display: none;
     background: url(/assets/Elsa.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    
 }
 
 .gallery-two {
@@ -56,9 +54,10 @@
 
 
 .gallery {
-    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    background-attachment: fixed;
 }
 .info {
     height: 7em;
@@ -66,6 +65,7 @@
     align-items: center;
     
     padding: 2rem;
+    margin-bottom: 2em;
 }
 .info h2 {
     font-size: 3em;
@@ -88,7 +88,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1em;
-    padding: 1em;
     height: 80vh;
     align-items: center;
 }
