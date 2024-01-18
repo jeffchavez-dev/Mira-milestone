@@ -24,12 +24,12 @@ girl.addEventListener('click', () => {
 })
 
 boy.addEventListener('click', () => {
-    galleryTwo.style.display = "block"
-    main.style.display = "none"
+    galleryTwo.style.display = "block";
+    main.style.display = "none";
 })
 
 home.addEventListener('click', () => {
-    galleryOne.style.display = "none"
-    galleryTwo.style.display = "none"
+    galleryOne.style.display = "none";
+    galleryTwo.style.display = "none";
     main.style.display = "flex"
 })
