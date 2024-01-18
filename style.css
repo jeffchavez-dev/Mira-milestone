@@ -149,5 +149,9 @@ img {
         background-size: contain;
         background-position: center;
         background-repeat: repeat;
-}
+    }
+
+    .photo {
+        font-size: 1em;
+    }
   }
