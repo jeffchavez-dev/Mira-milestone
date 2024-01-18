@@ -32,11 +32,11 @@
     cursor: pointer;
 }
 
-#boy {
+#boy, .boy {
     background: radial-gradient(329px at 3.1% 9.3%, rgb(54, 228, 191) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);
 }
 
-#girl {
+#girl, .girl {
     background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);
 }
 
@@ -58,8 +58,7 @@
     height: 100vh;
 }
 .info {
-    background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 50.1%, rgba(221, 221, 221, 0.15) 100.7%);
-    height: 5em;
+    height: 7em;
     display: flex;
     align-items: center;
     
@@ -103,12 +102,10 @@
 }
 
 .home {
-    
     position: fixed;
     color: #000000;
     right: 1em;
     bottom: 1em;
-    
 }
 
 
