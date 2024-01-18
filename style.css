@@ -29,6 +29,7 @@
     opacity: .9;
     max-width: 80%;
     text-align: center;
+    cursor: pointer;
 }
 
 .boy {
@@ -37,6 +38,11 @@
 
 .girl {
     background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);
+}
+
+
+.gallery {
+    display: none;
 }
 .sections {
     background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);
