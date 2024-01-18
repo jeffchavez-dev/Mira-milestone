@@ -9,7 +9,7 @@
    flex-direction: column;
    gap: 2em;
 }
-.main, section {
+.main {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -41,8 +41,9 @@
 }
 
 
-.gallery {
+.gallery-one {
     display: none;
+    background: url(/assets/Elsa.jpg);
 }
 .sections {
     background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);

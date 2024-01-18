@@ -13,15 +13,15 @@ const info = [
 
 const girl = document.querySelector("#girl")
 const main = document.querySelector(".main")
-const gallery = document.querySelector(".gallery")
+const galleryOne = document.querySelector(".gallery-one")
 const home = document.querySelector(".home")
 
 girl.addEventListener('click', () => {
-    gallery.style.display = "block"
+    galleryOne.style.display = "block"
     main.style.display = "none"
 })
 
 home.addEventListener('click', () => {
-    gallery.style.display = "none"
+    galleryOne.style.display = "none"
     main.style.display = "flex"
 })
