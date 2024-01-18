@@ -43,7 +43,7 @@
 
 .gallery-one {
     display: none;
-    background: url(/assets/Elsa.jpg);
+    background: url(/assets/Elsa.png);
 }
 
 .gallery-two {
@@ -54,18 +54,25 @@
 
 .gallery {
     background-size: cover;
+    background-position: center;
     height: 100vh;
 }
-.sections {
-    background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);
+.info {
+    background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 50.1%, rgba(221, 221, 221, 0.15) 100.7%);
     height: 5em;
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    
     padding: 2rem;
 }
-.section_name {
+.info h2 {
+    font-size: 3em;
+    text-align: left;
+    color: white;
+    font-style: italic;
+    text-shadow:rgba(221, 221, 221, 0.15);
+}
+.section_name { 
     color: #000;
     padding: 2em;
     font-size:  1.5rem;
