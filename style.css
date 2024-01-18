@@ -78,19 +78,20 @@
     font-style: italic;
 }
 
-.image_one {
-    background-image: url(/assets/322322177_690459082736803_1371477000028029327_n.jpg); 
-}
-.image_two {
-    background-image: url(/assets/swimming.jpg); 
-}
-
-.image_three {
-    background-image: url(/assets/with\ cousins.jpg); 
+.images {
+    display: flex;
+    height: 80vh;
+    align-items: center;
 }
 
-.image_four {
-    background-image: url(/assets/birthday.png); 
+.photo {
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    opacity: .7;
 }
 
 
