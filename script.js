@@ -2,12 +2,12 @@ const info = [
     {
         name: "Mira's Birthday",
         tag: "Birthday",
-        image: "/assets/Daddy\ and\ Miwa.jpg"
+        image: "/assets/1.jpg"
     },
     {
         name: "Mira's Birthday",
         tag: "Birthday",
-        image: "none"
+        image: "/assets/2.jpg"
     }
 ]
 
@@ -36,4 +36,16 @@ home.addEventListener('click', () => {
     main.style.display = "flex"
     home.style.display = "none";
     console.log("clicked")
+})
+
+
+const imageContainer = document.querySelector("#girl-images")
+
+
+info.forEach(image => {
+    const imgElement = document.createElement("img");
+    imgElement.src = image.image;
+
+    imageContainer.appendChild(imgElement)
+
 })

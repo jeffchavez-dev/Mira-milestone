@@ -80,6 +80,9 @@
 
 .images {
     display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
     height: 80vh;
     align-items: center;
 }
@@ -96,7 +99,13 @@
     font-style: italic;
 }
 
+img {
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(221, 221, 221, 0.15);
 
+}
 .reference {
     display: none;
     position: relative;
