@@ -32,11 +32,11 @@
     cursor: pointer;
 }
 
-.boy {
+#boy {
     background: radial-gradient(329px at 3.1% 9.3%, rgb(54, 228, 191) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);
 }
 
-.girl {
+#girl {
     background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);
 }
 

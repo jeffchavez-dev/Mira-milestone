@@ -11,12 +11,11 @@ const info = [
     }
 ]
 
-const girl = document.querySelector(".girl")
+const girl = document.querySelector("#girl")
 const main = document.querySelector(".main")
 const gallery = document.querySelector(".gallery")
 
 girl.addEventListener('click', () => {
     gallery.style.display = "block"
     main.style.display = "none"
-    console.log("good")
 })
