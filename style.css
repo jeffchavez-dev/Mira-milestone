@@ -82,3 +82,26 @@
     bottom: 0;
     left: 0;
 }
+
+.home {
+    
+    position: fixed;
+    color: #000000;
+    right: 1em;
+    bottom: 1em;
+    
+}
+
+
+.click {
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: .5em;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.click:hover {
+    transform: scale(1.05);
+    transition: .5s all ease-in-out;
+}
