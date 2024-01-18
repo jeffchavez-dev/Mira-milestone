@@ -8,6 +8,56 @@ const info = [
         name: "Mira's Birthday",
         tag: "Birthday",
         image: "/assets/2.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/3.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/4.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/5.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/6.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/7.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/8.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/9.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/10.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/11.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/12.jpg"
     }
 ]
 
