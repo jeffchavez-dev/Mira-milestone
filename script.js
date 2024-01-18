@@ -21,15 +21,19 @@ const home = document.querySelector(".home")
 girl.addEventListener('click', () => {
     galleryOne.style.display = "block"
     main.style.display = "none"
+    home.style.display = "block";
 })
 
 boy.addEventListener('click', () => {
     galleryTwo.style.display = "block";
     main.style.display = "none";
+    home.style.display = "block";
 })
 
 home.addEventListener('click', () => {
     galleryOne.style.display = "none";
     galleryTwo.style.display = "none";
     main.style.display = "flex"
+    home.style.display = "none";
+    console.log("clicked")
 })
