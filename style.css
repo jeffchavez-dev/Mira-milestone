@@ -154,4 +154,8 @@ img {
     .photo {
         font-size: 1em;
     }
+
+    img {
+        width: 100px;
+    }
   }
