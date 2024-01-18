@@ -45,6 +45,17 @@
     display: none;
     background: url(/assets/Elsa.jpg);
 }
+
+.gallery-two {
+    display: none;
+    background: url(/assets/Paw\ Patrol.jpg);
+}
+
+
+.gallery {
+    background-size: cover;
+    height: 100vh;
+}
 .sections {
     background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);
     height: 5em;
