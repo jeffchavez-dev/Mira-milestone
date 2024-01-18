@@ -5,7 +5,9 @@
 }
 
 .main{
-    background-image: url(/assets/Daddy\ and\ Miwa.jpg);
+   display: flex;
+   flex-direction: row;
+   gap: 2em;
 }
 .main, section {
     background-attachment: fixed;

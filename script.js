@@ -8,5 +8,5 @@ const info = [
         name: "Mira's Birthday",
         tag: "Birthday",
         image: 
-    },
+    }
 ]
