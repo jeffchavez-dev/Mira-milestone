@@ -41,24 +41,30 @@
 }
 
 
-.gallery-one {
-    display: none;
-    background: url(/assets/Elsa.png);
+.gallery-one-bg {
+    /* display: none; */
+    background-image: url(/assets/Elsa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    opacity: .9;
+    margin: 0;
     
 }
 
 .gallery-two {
     display: none;
     background: url(/assets/Paw\ Patrol.jpg);
-}
-
-
-.gallery {
     background-repeat: no-repeat;
     background-position: cover;
     background-attachment: fixed;
+    opacity: .9;
     
 }
+
 .info {
     height: 7em;
     display: flex;
@@ -108,7 +114,7 @@ img {
     width: 250px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(221, 221, 221, 0.15);
-    opacity: .8;
+    opacity: .9;
 }
 .reference {
     display: none;
@@ -189,6 +195,6 @@ img {
     }
 
     img {
-        width: 100px;
+        width: 150px;
     }
   }
