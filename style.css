@@ -40,12 +40,6 @@
     background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);
 }
 
-.gallery-one,
-.gallery-two {
-    display: none;
-    position: relative;
-    padding-bottom: 2em;
-}
 .gallery-one-bg {
     background-image: url(/assets/Elsa.png);
     background-repeat: no-repeat;
