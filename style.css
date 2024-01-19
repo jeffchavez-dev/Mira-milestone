@@ -40,19 +40,26 @@
     background: radial-gradient(329px at 3.1% 9.3%, rgb(251, 204, 235) 28.1%, rgba(221, 221, 221, 0.15) 100.7%);
 }
 
-
+.gallery-one,
+.gallery-two {
+    display: none;
+    position: relative;
+    padding-bottom: 2em;
+}
 .gallery-one-bg {
-    /* display: none; */
     background-image: url(/assets/Elsa.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
     position: fixed;
+    top: 0;
+    left: 0;
     opacity: .9;
     margin: 0;
-    
+    z-index: -1;
 }
 
 .gallery-two {
@@ -63,6 +70,9 @@
     background-attachment: fixed;
     opacity: .9;
     
+}
+#girl-images {
+    padding-bottom: 2em;
 }
 
 .info {

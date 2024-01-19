@@ -65,6 +65,7 @@ const girl = document.querySelector("#girl")
 const boy = document.querySelector("#boy")
 const main = document.querySelector(".main")
 const galleryOne = document.querySelector(".gallery-one")
+const galleryOneBG = document.querySelector(".gallery-one-bg")
 const galleryTwo = document.querySelector(".gallery-two")
 const home = document.querySelector(".home")
 
@@ -72,6 +73,7 @@ girl.addEventListener('click', () => {
     galleryOne.style.display = "block"
     main.style.display = "none"
     home.style.display = "block";
+    galleryOneBG.style.display = "block"
 })
 
 boy.addEventListener('click', () => {
@@ -94,16 +96,16 @@ const imageContainer = document.querySelector("#girl-images")
 info.forEach(image => {
     const galleryImages = document.createElement("img");
     galleryImages.src = image.image;
+    galleryImages.style.cursor = "pointer"
+    imageContainer.appendChild(galleryImages)
 
     const modal = document.createElement("div")
     const modalImage = document.createElement("img");
     modalImage.src = image.image;
     modalImage.style.cursor = "pointer"
-    
     modal.appendChild(modalImage)
-    modal.style.display = "none"; 
-    imageContainer.appendChild(galleryImages)
-
+    
+    
     const close = document.createElement("span")
     close.classList.add("close")
     close.innerText = "X"
