@@ -57,18 +57,29 @@
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
+    left: 0;
     opacity: .9;
     margin: 0;
     z-index: -1;
 }
 
-.gallery-two {
-    display: none;
+.gallery-two-bg {
     background: url(/assets/Paw\ Patrol.jpg);
     background-repeat: no-repeat;
     background-position: cover;
-    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
     opacity: .9;
+    margin: 0;
+    z-index: -1;
     
 }
 #girl-images {
