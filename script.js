@@ -1,4 +1,4 @@
-const info = [
+const pictures = [
     {
         name: "Mira's Birthday",
         tag: "Birthday",
@@ -113,7 +113,7 @@ home.addEventListener('click', () => {
 
 const imageContainer = document.querySelector("#girl-images")
 
-info.forEach(image => {
+pictures.forEach(image => {
     const galleryImages = document.createElement("img");
     galleryImages.src = image.image;
     galleryImages.style.cursor = "pointer"
