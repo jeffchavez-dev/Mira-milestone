@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const path = require('path');
+
+import fs from 'fs';
+import path from 'path';
 
 const folderPath = './assets'; // Change this to your local folder path
 const info = [];
