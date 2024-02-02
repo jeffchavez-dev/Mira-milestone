@@ -7,6 +7,26 @@ const info = [
     {
         name: "Mira's Birthday",
         tag: "Birthday",
+        image: "/assets/1.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/1.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/1.jpg"
+    },   
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/1.jpg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
         image: "/assets/2.jpg"
     },
     {
