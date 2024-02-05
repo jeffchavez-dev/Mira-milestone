@@ -1,7 +1,6 @@
 // #!/usr/bin/env node
 
-
-import { promises as fsPromises } from 'fs';
+const fsPromises = require('fs').promises;
 
 const directoryPath = './assets';
 
