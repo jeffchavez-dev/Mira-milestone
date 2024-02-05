@@ -1,22 +1,24 @@
 #!/usr/bin/env node
 
 
-const fs = require('fs');
-const path = require('path');
+import { promises as fs } from 'fs';
 
-const directoryPath = path.join(__dirname, 'assets');
+const directoryPath = './assets';
 
-const info = [];
+async function generateObjects() {
+  try {
+    const files = await fs.readdir(directoryPath);
 
-fs.readdirSync(directoryPath).forEach(file => {
-  const filePath = path.join(directoryPath, file);
+    const info = files.map((file, index) => ({
+      name: `${index + 1}`,
+      tag: 'Tag',
+      image: `\\assets\\${file}`
+    }));
 
-  // Customize this part based on your requirements
-  info.push({
-    name: file.replace(/\.[^/.]+$/, ''),
-    tag: 'Tag', // You can customize the tag as needed
-    image: filePath.replace(/\\/g, "/") // Convert backslashes to forward slashes for URLs
-  });
-});
+    console.log(info);
+  } catch (error) {
+    console.error('Error reading directory:', error);
+  }
+}
 
-console.log(info);
+generateObjects();
