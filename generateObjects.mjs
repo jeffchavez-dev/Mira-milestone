@@ -29,3 +29,5 @@ fs.readdir(folderPath, (err, files) => {
     // Display the generated array
     console.log(info);
 });
+
+console.log(info);
