@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+
 import { promises as fsPromises } from 'fs';
 
 const directoryPath = './assets';
@@ -21,5 +22,7 @@ async function generateObjects() {
 }
 
 generateObjects();
+
+
 
 
