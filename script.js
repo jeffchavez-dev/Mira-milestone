@@ -172,6 +172,3 @@ home.addEventListener('click', () => {
         })
     })
 
-
-
-})

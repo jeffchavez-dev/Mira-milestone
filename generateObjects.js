@@ -21,7 +21,7 @@ async function generateObjects() {
   }
 }
 
-generateObjects();
+export default generateObjects;
 
 
 
