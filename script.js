@@ -1,28 +1,28 @@
-import generateObjects from './generateObjects.js';
+// import generateObjects from './generateObjects.js';
 
-async function processFiles() {
-  try {
-    const filesInfo = await generateObjects();
-    console.log(filesInfo);
-    // Perform additional processing with the filesInfo if needed
-    const imageContainer = document.querySelector("#girl-images")
-    filesInfo.forEach(image => {
-        const galleryImages = document.createElement("img");
-        galleryImages.src = image.image;
-        galleryImages.style.cursor = "pointer"
-        imageContainer.appendChild(galleryImages)
-    });
+// async function processFiles() {
+//   try {
+//     const filesInfo = await generateObjects();
+//     console.log(filesInfo);
+//     // Perform additional processing with the filesInfo if needed
+//     const imageContainer = document.querySelector("#girl-images")
+//     filesInfo.forEach(image => {
+//         const galleryImages = document.createElement("img");
+//         galleryImages.src = image.image;
+//         galleryImages.style.cursor = "pointer"
+//         imageContainer.appendChild(galleryImages)
+//     });
 
-    console.log(filesInfo)
+//     console.log(filesInfo)
 
 
 
-} catch (error) {
-    console.error('Error:', error);
-  }
-}
+// } catch (error) {
+//     console.error('Error:', error);
+//   }
+// }
 
-processFiles();
+// processFiles();
 
 const pictures = [
     {
@@ -137,13 +137,13 @@ home.addEventListener('click', () => {
 })
 
 
-// const imageContainer = document.querySelector("#girl-images")
+const imageContainer = document.querySelector("#girl-images")
 
-// pictures.forEach(image => {
-//     const galleryImages = document.createElement("img");
-//     galleryImages.src = image.image;
-//     galleryImages.style.cursor = "pointer"
-//     imageContainer.appendChild(galleryImages)
+pictures.forEach(image => {
+    const galleryImages = document.createElement("img");
+    galleryImages.src = image.image;
+    galleryImages.style.cursor = "pointer"
+    imageContainer.appendChild(galleryImages)
 
     const modal = document.createElement("div")
     const modalImage = document.createElement("img");
@@ -171,4 +171,4 @@ home.addEventListener('click', () => {
             close.style.display = "none"
         })
     })
-
+})
