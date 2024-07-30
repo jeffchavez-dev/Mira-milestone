@@ -147,13 +147,13 @@ home.addEventListener('click', () => {
 })
 
 
-const imageContainer = document.querySelector("#girl-images")
+const imageContainerGirl = document.querySelector("#girl-images")
 
 picturesGirl.forEach(image => {
     const galleryImages = document.createElement("img");
     galleryImages.src = image.image;
     galleryImages.style.cursor = "pointer"
-    imageContainer.appendChild(galleryImages)
+    imageContainerGirl.appendChild(galleryImages)
 
     const modal = document.createElement("div")
     const modalImage = document.createElement("img");
@@ -172,7 +172,7 @@ picturesGirl.forEach(image => {
         modal.classList.add("modal")
         modal.style.display = "flex"
         modalImage.classList.add("modal_image")
-        imageContainer.appendChild(modal)
+        imageContainerGirl.appendChild(modal)
 
         close.addEventListener('click', () => {
             // modal.style.display = "none";
