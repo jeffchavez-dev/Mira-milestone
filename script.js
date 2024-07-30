@@ -111,7 +111,17 @@ const picturesBoy = [
     {
         name: "Mira's Birthday",
         tag: "Birthday",
-        image: "/assets/Kesed 1.jpg"
+        image: "/assets/Kesed 1.jpeg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/Kesed 2.jpeg"
+    },
+    {
+        name: "Mira's Birthday",
+        tag: "Birthday",
+        image: "/assets/Kesed 2.jpeg"
     }
 ]
 
