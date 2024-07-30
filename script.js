@@ -1,28 +1,3 @@
-// import generateObjects from './generateObjects.js';
-
-// async function processFiles() {
-//   try {
-//     const filesInfo = await generateObjects();
-//     console.log(filesInfo);
-//     // Perform additional processing with the filesInfo if needed
-//     const imageContainer = document.querySelector("#girl-images")
-//     filesInfo.forEach(image => {
-//         const galleryImages = document.createElement("img");
-//         galleryImages.src = image.image;
-//         galleryImages.style.cursor = "pointer"
-//         imageContainer.appendChild(galleryImages)
-//     });
-
-//     console.log(filesInfo)
-
-
-
-// } catch (error) {
-//     console.error('Error:', error);
-//   }
-// }
-
-// processFiles();
 
 lightGallery(document.getElementById('lightgallery'), {
     plugins: [lgZoom, lgThumbnail],
