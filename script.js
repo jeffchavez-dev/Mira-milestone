@@ -151,6 +151,7 @@ const imageContainerGirl = document.querySelector("#girl-images")
 const imageContainerBoy = document.querySelector("#boy-images")
 
 picturesGirl.forEach(image => {
+    console.log("Girl")
     const galleryImages = document.createElement("img");
     galleryImages.src = image.image;
     galleryImages.style.cursor = "pointer"
@@ -186,6 +187,7 @@ picturesGirl.forEach(image => {
 
 
 picturesBoy.forEach(image => {
+    console.log("Boy")
     const galleryImages = document.createElement("img");
     galleryImages.src = image.image;
     galleryImages.style.cursor = "pointer"
